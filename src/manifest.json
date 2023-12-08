@@ -1,0 +1,36 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "§cCreator: §aValcyle",
+        "name": "§eNoteMusic player",
+        "uuid": "80c9f0c2-8d8e-40cd-a96a-e8ac8577be43",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 20, 0 ]
+    },
+    "modules": [
+        {
+            "description": "behavior data",
+            "type": "data",
+            "uuid": "70ba060c-ecfd-44db-9673-6cccbd08b092",
+            "version": [1, 0, 0]
+        },
+		{
+			"description": "main file client",
+			"uuid": "1d8f2074-6f5c-4c80-a586-068b8ae77b63",
+			"version": [1, 0, 0],
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/Main.js"
+		}
+    ],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+            "version": "1.6.0-beta"
+		},
+        {
+			"module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+		}
+	]
+}
