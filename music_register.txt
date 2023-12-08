@@ -1,0 +1,9 @@
+import { songname } from "./SongName";
+
+
+2:{
+        title: "songname",
+        length: 15,
+        file: "Songname",
+        note: songname
+    },
