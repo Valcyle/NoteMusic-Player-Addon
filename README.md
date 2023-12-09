@@ -13,7 +13,7 @@ Play converter .nbs music in minecraft bedrock edition world.
 6. Copy "import ~~~~" to '";' from [music_register.txt](https://github.com/Valcyle/NoteMusic-Player-Addon/blob/main/music_register.txt) and add before the "export const~~~~"
 7. Open music's .js file and check song file name in "export const 'this is song name'"
 8. Replace step 6's "songname" to step 7's song name
-9. Copy "2:{" to end from [music_register.txt](https://github.com/Valcyle/NoteMusic-Player-Addon/blob/main/music_register.txt) and add after the "2:{ ~~~~ },"
+9. Copy "2:{" to end from [music_register.txt](https://github.com/Valcyle/NoteMusic-Player-Addon/blob/main/music_register.txt) and add after the "2:{ ~~~~ }," in info.js
 10. Change "2" before ":{" to track number you want to use(don't use already used one)
 11. Change "title" to your song title
 12. Change "length" to length in songinfo's file
