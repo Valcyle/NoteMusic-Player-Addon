@@ -25,3 +25,5 @@ Play converter .nbs music in minecraft bedrock edition world.
 
 ## Support
 [Support Discord](https://discord.gg/f39pkTYdWS)
+
+name written as "valcyle" but changed name to "variable" in 2023/12/10
